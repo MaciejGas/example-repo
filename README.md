@@ -29,4 +29,4 @@ Simple project for tattoo studio. Can be used as a client and administrator.
 The project includes functionalities such as PDF generator, middleware, seeders/factory,
 full-calendar, flash messages, repository pattern, cruds for all Models.
 The client can make reservations and send messages to the studio.
-The administrator has the ability to manage clients, reservations, dates of meetings, the number of accessories, generate reports from a given period.
+The administrator has the ability to manage clients, reservations, dates of meetings, the number of accessories, generate reports from a given period, create and update the content.
