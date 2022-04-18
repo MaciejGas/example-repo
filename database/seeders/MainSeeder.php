@@ -98,13 +98,27 @@ class MainSeeder extends Seeder
         ]);
 
         DB::table('contents')->insert([
-            'name' => 'left_section',
-            'content' => 'Text po lewej na stronie głównej',
+            'name' => 'Pierwsza_sekcja',
+            'content' => 'Text dla contentu strony głównej #1',
+            'color' => 'primary',
         ]);
 
         DB::table('contents')->insert([
-            'name' => 'right_section',
-            'content' => 'Text po prawej na stronie głównej',
+            'name' => 'Druga_sekcja',
+            'content' => 'Text dla contentu strony głównej #2',
+            'color' => 'success',
+        ]);
+
+        DB::table('contents')->insert([
+            'name' => 'Trzecia_sekcja',
+            'content' => 'Text dla contentu strony głównej #3',
+            'color' => 'danger',
+        ]);
+
+        DB::table('contents')->insert([
+            'name' => 'Czwarta_sekcja',
+            'content' => 'Text dla contentu strony głównej #4',
+            'color' => 'warning',
         ]);
 
 

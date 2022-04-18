@@ -11,10 +11,9 @@ class WebController extends Controller
 {
     public function index()
     {
-        $left_content = Content::get()->where('name', 'left_section');
-        $right_content = Content::get()->where('name', 'right_section');
+        $content = Content::get();
 
-        return view('web', ['Left' => $left_content, 'Right' => $right_content ]);
+        return view('web', ['Content' => $content]);
     }
 
     public function update(ContentRepository $contentRepo, Request $request)

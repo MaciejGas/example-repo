@@ -23,17 +23,13 @@
   </div>
 
   <div class="row mt-5">
-    <div class="col-6 fs-2 text-center">
-      @foreach ($Left as $item)
-        {{ $item->content}}
+      @foreach($Content as $item)
+      <div class="col-3">
+      {{ $item->content }}
+      </div>  
       @endforeach
-    </div>
-    <div class="col-6 fs-2 text-center">
-      @foreach ($Right as $item)
-        {{ $item->content}}
-      @endforeach
-    </div>
   </div>
+
 
 </div>
 

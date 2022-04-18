@@ -17,6 +17,7 @@ class ContentCreate extends Migration
             $table->id();
             $table->string('name');
             $table->longText('content');
+            $table->string('color');
             $table->timestamps();
         });
     }
