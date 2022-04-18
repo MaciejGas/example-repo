@@ -4,7 +4,7 @@
 
 <div class="container">
 
-    <div class="row mt-5">
+    <div class="row mt-3">
         <div class="col-12">
             <p class="fs-1">Panel Administratora</p>
         </div>

@@ -66,6 +66,8 @@
     border: 2px solid black;
     padding: 25px 25px;
     box-shadow: 5px 10px 8px #46d9e4;
+    max-height: 700px;
+
   }
 
   .third-element

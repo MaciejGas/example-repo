@@ -6,13 +6,13 @@
 
     <div class="row mt-5">
         <div class="col-12">
-            <p class="fs-3">Planning</p>
+            <p class="fs-1">Planning</p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-sm-12 mt-2">
-            <div class="second-element">
+            <div class="second-element table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
@@ -37,7 +37,7 @@
                 </table>
             </div>
         </div>
-        <div class="col-sm-12 mt-2">
+        <div class="col-sm-12 mt-5">
             <div class="second-element">
                 @include('a_panel.orders.fullcalender')
             </div>

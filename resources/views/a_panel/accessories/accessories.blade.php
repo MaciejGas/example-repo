@@ -6,13 +6,13 @@
 
     <div class="row mt-5">
         <div class="col-12">
-            <p class="fs-3">Akcesoria</p>
+            <p class="fs-1">Akcesoria</p>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row mb-3">
     @foreach($accessories as $accessory)
-        <div class="col-6 mt-5">
+        <div class="col-6 mt-4">
             <div class="second-element">
                 <h4 class="small font-weight-bold"><strong>{{ $accessory->name}}</strong>
                     <span class="float-right">{{$accessory->amount}} sztuk</span>
