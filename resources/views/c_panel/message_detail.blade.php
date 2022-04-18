@@ -14,10 +14,13 @@
         </div>
         <div class="col-12 mt-3">
             <div class="second-element">
+                <p class="fs-2">Wiadomość :</p>
                 <div class="row alert-success">
-                    {{ $message->question}}
+                    {{ $message->question }}
                 </div>
-
+            </div>
+            <div class="second-element mt-3">
+                <p class="fs-2">Odpowiedź :</p>
                 <div class="row alert-danger mt-3">
                     @foreach($answer as $content)
                             {{ $content->answer_body }}

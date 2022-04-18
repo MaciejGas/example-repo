@@ -6,7 +6,7 @@
 <div class="container">
 
     <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <div class="second-element">
             <h5 class="text-center">Twoje Wiadomości</h5>
             @if( count($messagesList) < 1)
@@ -23,7 +23,7 @@
             @endforeach    
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12 mt-4">
             <div class="second-element">
              <h4 class="text-center">Napisz Wiadomość</h4>   
             <form action="{{ url('c_message_create') }}" method="POST" role="form">

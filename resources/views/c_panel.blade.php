@@ -8,9 +8,8 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/sidebar.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/c_home.css') }}" rel="stylesheet">
 </head>
-<body onload="myFunction()">
+<body onload="myFunction()" style="background-color: #ebedf5;">
 
 
 <!-- The sidebar -->
