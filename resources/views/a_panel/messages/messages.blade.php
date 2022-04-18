@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="row">        
+    <div class="row mt-2">        
         <div class="col-md-4 col-sm-12 mt-2">
             <div class="first-element">
                 <div class="row">
@@ -73,7 +73,7 @@
                         <td>{{ $message->client->name }}</td>
                         <td>{{ $message->client->surname }}</td>
                         <td>{{ $message->topic}}</td>
-                        <td><a href="{{ URL::to('/a_messages' , [$message->id] )}}"><button type="button" class="btn btn-dark">Odpowiedz</button></a></td>
+                        <td><a href="{{ URL::to('/a_answer_create' , [$message->id] )}}"><button type="button" class="btn btn-dark">Odpowiedz</button></a></td>
                         </tr>
                         @endforeach
                         </tr>

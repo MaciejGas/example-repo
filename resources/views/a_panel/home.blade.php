@@ -12,7 +12,7 @@
 
     <div class="row mt-2">
         <div class="col-lg-8 col-md-12 text-center">
-            <div class="second-element">
+            <div class="fourth-element">
                 <p class="fs-2">Treści strony głównej</p>
                     <div class="row">
                         @foreach ($Contents as $content)

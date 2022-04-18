@@ -40,13 +40,6 @@ class MessageController extends Controller
                                                 "answer" => $answer]);
     }
 
-    public function get_details(MessageRepository $messageRepo, $id)
-    {
-        $message = $messageRepo->find($id);
-
-        return view('a_panel.messages.messages_profile', ["message" => $message]);
-    }
-
     public function create(Request $request)
     {
         $request->validate([

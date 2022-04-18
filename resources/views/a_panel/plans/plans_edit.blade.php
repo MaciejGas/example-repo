@@ -6,7 +6,7 @@
 
     <div class="row mt-5">
         <div class="col-12">
-            <p class="fs-3">Edycja terminu</p>
+            <p class="fs-1">Edycja terminu</p>
         </div>
     </div>
 

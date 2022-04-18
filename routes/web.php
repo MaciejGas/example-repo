@@ -47,7 +47,6 @@ Route::get('admin/home', [App\Http\Controllers\HomeController::class, 'adminHome
 
 
 Route::get('/a_messages', [MessageController::class, 'index'])->middleware('is_admin');
-Route::get('/a_messages/{id}', [MessageController::class, 'get_details']);
 Route::get('/a_answer_create/{id}', [MessageController::class, 'create_answer']);
 Route::post('/admin_answer', [MessageController::class, 'admin_answer']);
 

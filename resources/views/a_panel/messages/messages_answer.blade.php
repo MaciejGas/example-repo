@@ -6,14 +6,14 @@
 
     <div class="rowm mt-5">
         <div class="col-12">
-            <div class="first-element">
+            <div class="second-element">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
-                    <h6>Klient</h6>
+                    <p class="fs-3">Klient</p>
                         <ul class="list-group">
-                            <li class="list-group-item"><small>Imię :</small>{{ $question->client->name }}</li>
-                            <li class="list-group-item"><small>Temat :</small>{{ $question->topic }}</li>
-                            <li class="list-group-item"><small>Treść :</small>{{ $question->question }}</li>
+                            <li class="list-group-item">Imię :<small>{{ $question->client->name }}</small></li>
+                            <li class="list-group-item">Temat :<small>{{ $question->topic }}</small></li>
+                            <li class="list-group-item">Treść :<small>{{ $question->question }}</small></li>
                         </ul>
                     </div>
 
@@ -24,7 +24,7 @@
                             <div class="form-group">
                                 <input type="hidden" class="form-control" name="messageid"  value="{{ $question->id }}"/>  
 
-                                <label for="answerbody">Odpowiedź</label>
+                                <p class="fs-3">Odpowiedź</p>
                                 <textarea type="text" class="form-control" name="answerbody" rows="5"></textarea> 
                             </div>
 

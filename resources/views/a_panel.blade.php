@@ -10,7 +10,7 @@
     <link href="{{ asset('css/sidebar.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body onload="myFunction()">
+<body onload="myFunction()" style="background-color: #ebedf5;">
 
 
 <!-- The sidebar -->

@@ -4,7 +4,8 @@
 
 <div class="container">
     <div class="row mt-5">
-        <div class="second-element">
+        <div class="fourth-element">
+            <p class="fs-2">Zatwierdzanie terminu</p>
             <form action="{{ url('a_orders_confirm') }}" method="POST" role="form">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                 <input type="hidden" name="id" value="{{ $order->id }}" />
